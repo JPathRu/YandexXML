@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE yml_catalog SYSTEM "http://partner.market.yandex.ru/pages/help/shops.dtd">
+<yml_catalog date="2016-02-04 10:41">
+    <shop>
+        <name> Название магазина</name>
+        <company> Название компании</company>
+        <url>http://poligon3.argens.ru/</url>
+
+        <currencies>
+            <currency id="RUB" rate="1" plus="0"/>
+        </currencies>
+
+                    <categories>
+                                    <category id="2">Product pattern</category>
+                                    <category id="3">Pagination</category>
+                                    <category id="4">Headpiece</category>
+                                    <category id="7">Wear</category>
+                                    <category id="8" parentId="7">Mister</category>
+                                    <category id="9" parentId="7">Lady</category>
+                                    <category id="11">Product variants</category>
+                                    <category id="12">Product attributes</category>
+                            </categories>
+
+                            <local_delivery_cost>200</local_delivery_cost>
+                <offers>
+            <offer id="154" bid="10" cbid="20" available="true">
+                                            <store>false</store>
+                                                                        <pickup>true</pickup>
+                                                                        <delivery>true</delivery>
+                                                                        <local_delivery_cost>200</local_delivery_cost>
+                                                                        <url>http://poligon3.argens.ru/index.php?option=com_virtuemart&amp;amp;view=productdetails&amp;amp;virtuemart_product_id=154&amp;amp;virtuemart_category_id=7</url>
+                                                                        <price>40.83333</price>
+                                                                        <currencyId>RUB</currencyId>
+                                                                        <categoryId>7</categoryId>
+                                                                        <vendor>Producer</vendor>
+                                                                        <vendorCode>PR-DST</vendorCode>
+                                                                        <picture>http://poligon3.argens.ru/images/stories/virtuemart/product/shirt1.png</picture>
+                                                                        <name>Dress Shirt with tie</name>
+                                                                        <description>Fine feathers make fine birds - time to get serious</description>
+                                                        </offer>
+                <offer id="155" bid="10" cbid="20" available="true">
+                                            <store>false</store>
+                                                                        <pickup>true</pickup>
+                                                                        <delivery>true</delivery>
+                                                                        <local_delivery_cost>200</local_delivery_cost>
+                                                                        <url>http://poligon3.argens.ru/index.php?option=com_virtuemart&amp;amp;view=productdetails&amp;amp;virtuemart_product_id=155&amp;amp;virtuemart_category_id=7</url>
+                                                                        <price>24.16667</price>
+                                                                        <currencyId>RUB</currencyId>
+                                                                        <categoryId>7</categoryId>
+                                                                        <vendor>Producer</vendor>
+                                                                        <vendorCode>MA-SS</vendorCode>
+                                                                        <picture>http://poligon3.argens.ru/images/stories/virtuemart/product/tshirt8.png</picture>
+                                                                        <name>T-Shirt classic blue</name>
+                                                                        <description>Freetime &amp;amp; leisure 360° comrade</description>
+                                                        </offer>
+                <offer id="170" bid="10" cbid="20" available="true">
+                                            <store>false</store>
+                                                                        <pickup>true</pickup>
+                                                                        <delivery>true</delivery>
+                                                                        <local_delivery_cost>200</local_delivery_cost>
+                                                                        <url>http://poligon3.argens.ru/index.php?option=com_virtuemart&amp;amp;view=productdetails&amp;amp;virtuemart_product_id=170&amp;amp;virtuemart_category_id=11</url>
+                                                                        <price>10</price>
+                                                                        <currencyId>RUB</currencyId>
+                                                                        <categoryId>11</categoryId>
+                                                                        <vendor>Producer</vendor>
+                                                                        <name>PATTERN Product variants</name>
+                                                        </offer>
+                <offer id="200" bid="10" cbid="20" available="true">
+                                            <store>false</store>
+                                                                        <pickup>true</pickup>
+                                                                        <delivery>true</delivery>
+                                                                        <local_delivery_cost>200</local_delivery_cost>
+                                                                        <url>http://poligon3.argens.ru/index.php?option=com_virtuemart&amp;amp;view=productdetails&amp;amp;virtuemart_product_id=200&amp;amp;virtuemart_category_id=2</url>
+                                                                        <price>33</price>
+                                                                        <currencyId>RUB</currencyId>
+                                                                        <categoryId>2</categoryId>
+                                                                        <vendor>Default</vendor>
+                                                                        <vendorCode>005</vendorCode>
+                                                                        <name>Basic PATTERN</name>
+                                                                        <description>Showcase for pattern usage</description>
+                                                        </offer>
+                <offer id="204" bid="10" cbid="20" available="true">
+                                            <store>false</store>
+                                                                        <pickup>true</pickup>
+                                                                        <delivery>true</delivery>
+                                                                        <local_delivery_cost>200</local_delivery_cost>
+                                                                        <url>http://poligon3.argens.ru/index.php?option=com_virtuemart&amp;amp;view=productdetails&amp;amp;virtuemart_product_id=204&amp;amp;virtuemart_category_id=2</url>
+                                                                        <price>25</price>
+                                                                        <currencyId>RUB</currencyId>
+                                                                        <categoryId>2</categoryId>
+                                                                        <vendor>Producer</vendor>
+                                                                        <vendorCode>009</vendorCode>
+                                                                        <name>Advanced PATTERN</name>
+                                                                        <description>Showcase advanced pattern usage</description>
+                                                        </offer>
+                <offer id="1200" bid="10" cbid="20" available="true">
+                                            <store>false</store>
+                                                                        <pickup>true</pickup>
+                                                                        <delivery>true</delivery>
+                                                                        <local_delivery_cost>200</local_delivery_cost>
+                                                                        <url>http://poligon3.argens.ru/index.php?option=com_virtuemart&amp;amp;view=productdetails&amp;amp;virtuemart_product_id=1200&amp;amp;virtuemart_category_id=3</url>
+                                                                        <price>80</price>
+                                                                        <currencyId>RUB</currencyId>
+                                                                        <categoryId>3</categoryId>
+                                                                        <vendor>Producer</vendor>
+                                                                        <vendorCode>FAC</vendorCode>
+                                                                        <picture>http://poligon3.argens.ru/images/stories/virtuemart/product/cart_logo.jpg</picture>
+                                                                        <name>FAC #0 20</name>
+                                                        </offer>
+            </offers>
+    </shop>
+</yml_catalog>

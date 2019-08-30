@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<extension type="component" version="3.5" method="upgrade">
+    <name>com_argensyml</name>
+    <author>Arkadiy, Joomline</author>
+    <authorEmail>a.sedelnikov@gmail.com</authorEmail>
+	<creationDate>06.06.2018</creationDate>
+    <authoreUrl>http://joomline.ru</authoreUrl>
+    <copyright>© 2015-2018. All rights reserved.</copyright>
+    <license>GNU/GPL v.3 or later.</license>
+    <version>1.6.3</version>
+    <description>COM_ARGENSYML_DESC</description>
+    <files folder="site">
+		<folder>models</folder>
+        <folder>views</folder>
+        <folder>yml</folder>
+        <filename>argensyml.php</filename>
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+    </files>
+	<install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+	<update>
+        <schemas>
+            <schemapath type="mysql">sql/updates/mysql</schemapath>
+        </schemas>
+    </update>
+    <administration>
+        <menu view="items">COM_ARGENSYML_MENU</menu>
+        <languages folder="admin/language">
+            <language tag="ru-RU">ru-RU/ru-RU.com_argensyml.sys.ini</language>
+            <language tag="ru-RU">ru-RU/ru-RU.com_argensyml.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_argensyml.sys.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_argensyml.ini</language>
+        </languages>
+        <files folder="admin">
+            <folder>assets</folder>
+            <folder>connectors</folder>
+            <folder>controllers</folder>
+            <folder>helpers</folder>
+            <folder>language</folder>
+            <folder>models</folder>
+            <folder>sql</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+            <filename>access.xml</filename>
+            <filename>argensyml.php</filename>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>index.html</filename>
+        </files>
+    </administration>
+</extension>

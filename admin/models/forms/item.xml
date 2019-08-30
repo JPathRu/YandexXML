@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="filetype">
+        <field
+                name="type"
+                type="radio"
+                label="COM_ARGENSYML_FILE_TYPE"
+                description="COM_ARGENSYML_FILE_TYPE_DESC"
+                class="btn-group btn-group-yesno"
+                default="y"
+        >
+            <option value="y">Yandex</option>
+            <option value="v">VKontakte</option>
+        </field>
+    </fieldset>
+    <fieldset name="vkontakte">
+        <field
+                name="site_id"
+                type="text"
+                label="COM_ARGENSYML_VK_SITE_ID"
+                description="COM_ARGENSYML_VK_SITE_ID_DESC"
+                default=""
+        />
+        <field
+                name="site_pass"
+                type="text"
+                label="COM_ARGENSYML_VK_SITE_PASS"
+                description="COM_ARGENSYML_VK_SITE_PASS_DESC"
+                default=""
+        />
+        <field
+                name="group_id"
+                type="text"
+                label="COM_ARGENSYML_GROUP_ID"
+                description="COM_ARGENSYML_GROUP_ID_DESC"
+                default=""
+                filter="integer"
+        />
+        <field
+                name="album_id"
+                type="text"
+                label="COM_ARGENSYML_ALBUM_ID"
+                description="COM_ARGENSYML_ALBUM_ID_DESC"
+                default=""
+                filter="integer"
+        />
+    </fieldset>
+    <fieldset name="basic" label="COM_CONFIG_COMPONENT_FIELDSET_LABEL">
+        <field
+                name="id"
+                type="hidden"
+                default=""
+        />
+
+
+        <field
+                name="name"
+                type="text"
+                default=""
+                label="COM_ARGENSYML_FILE_NAME"
+                description="COM_ARGENSYML_FILE_NAME_DESC"
+                required="true"
+        />
+        <field
+                name="currency"
+                type="text"
+                default="RUB"
+                label="COM_ARGENSYML_CYRRENCY"
+                description="COM_ARGENSYML_CYRRENCY_DESC"
+                required="true"
+        />
+        <field
+                name="filename"
+                type="text"
+                default="xmlyandex"
+                label="COM_ARGENSYML_FILENAME"
+                description="COM_ARGENSYML_FILENAME_DESC"
+                required="true"
+        />
+        <field
+                name="images_limit"
+                type="text"
+                default="1"
+                label="COM_ARGENSYML_IMAGES_LIMIT"
+                description="COM_ARGENSYML_IMAGES_LIMIT_DESC"
+                required="true"
+                filter="integer"
+        />
+
+    </fieldset>
+
+    <fieldset
+            name="yandex"
+            label="COM_ARGENSYML_UANDEX_SETTINGS"
+    >
+        <field
+                name="shop_name"
+                type="text"
+                default=""
+                label="COM_ARGENSYML_SHOP_NAME"
+                description="COM_ARGENSYML_SHOP_NAME_DESC"
+        />
+        <field
+                name="company_name"
+                type="text"
+                default=""
+                label="COM_ARGENSYML_COMPANY_NAME"
+                description="COM_ARGENSYML_COMPANY_NAME_DESC"
+        />
+        <field
+                name="cpa"
+                type="list"
+                label="COM_ARGENSYML_CPA"
+                description="COM_ARGENSYML_CPA_DESC"
+                default="-1"
+        >
+            <option value="-1">COM_ARGENSYML_CPA_NOT_SHOW</option>
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        <field
+                name="offer_type"
+                type="list"
+                default="basic"
+                label="COM_ARGENSYML_TYPE"
+                description="COM_ARGENSYML_TYPE_DESC"
+        >
+            <option value="vendor.model">COM_ARGENSYML_TYPE_VENDOR</option>
+            <option value="book">COM_ARGENSYML_TYPE_BOOK</option>
+            <option value="audiobook">COM_ARGENSYML_TYPE_AUDIOBOOK</option>
+            <option value="artist.title">COM_ARGENSYML_TYPE_ARTIST</option>
+            <option value="tour">COM_ARGENSYML_TYPE_TOUR</option>
+            <option value="event-ticket">COM_ARGENSYML_TYPE_TICKET</option>
+        </field>
+        <field
+                name="store"
+                type="radio"
+                label="COM_ARGENSYML_STORE"
+                description="COM_ARGENSYML_STORE_DESC"
+                class="btn-group btn-group-yesno"
+                default="1"
+        >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="pickup"
+                type="radio"
+                label="COM_ARGENSYML_PICKUP"
+                description="COM_ARGENSYML_PICKUP_DESC"
+                class="btn-group btn-group-yesno"
+                default="1"
+        >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        <field
+                name="delivery"
+                type="radio"
+                label="COM_ARGENSYML_DELIVERY"
+                description="COM_ARGENSYML_DELIVERY_DESC"
+                class="btn-group btn-group-yesno"
+                default="1"
+        >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        <field
+                name="delivery_time"
+                type="text"
+                default=""
+                label="COM_ARGENSYML_DELIVERY_TIME"
+                description="COM_ARGENSYML_DELIVERY_TIME_DESC"
+                filter="integer"
+        />
+        <field
+                name="order_before"
+                type="text"
+                default=""
+                label="COM_ARGENSYML_ORDER_BEFORE"
+                description="COM_ARGENSYML_ORDER_BEFORE_DESC"
+                filter="integer"
+        />
+        <field
+                name="local_delivery_cost"
+                type="text"
+                default=""
+                label="COM_ARGENSYML_DELIVERY_COST"
+                description="COM_ARGENSYML_DELIVERY_COST_DESC"
+        />
+        <field
+                name="free_shipping"
+                type="text"
+                default="0"
+                label="COM_ARGENSYML_FREE_SHIPPING"
+                description="COM_ARGENSYML_FREE_SHIPPING_DESC"
+                filter="integer"
+        />
+        <field
+                name="bid"
+                type="text"
+                default=""
+                label="COM_ARGENSYML_BID"
+                description="COM_ARGENSYML_BID_DESC"
+        />
+        <field
+                name="cbid"
+                type="text"
+                default=""
+                label="COM_ARGENSYML_CBID"
+                description="COM_ARGENSYML_CBID_DESC"
+        />
+        <field
+                name="sales_notes"
+                type="text"
+                default=""
+                label="COM_ARGENSYML_SALES_NOTES"
+                description="COM_ARGENSYML_SALES_NOTES_DESC"
+        />
+        <field
+                name="adult"
+                type="list"
+                default=""
+                label="COM_ARGENSYML_ADULT"
+                description="COM_ARGENSYML_ADULT_DESC"
+        >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        <field
+                name="age"
+                type="list"
+                default="0"
+                label="COM_ARGENSYML_AGE"
+                description="COM_ARGENSYML_AGE_DESC"
+        >
+            <option value="0">0</option>
+            <option value="6">6</option>
+            <option value="12">12</option>
+            <option value="16">16</option>
+            <option value="18">18</option>
+        </field>
+        <field
+                name="delete_missing"
+                type="list"
+                default="0"
+                label="COM_ARGENSYML_DELETE_MISSING"
+                description="COM_ARGENSYML_DELETE_MISSING_DESC"
+        >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+    </fieldset>
+
+    <fieldset
+            name="shop"
+            label="COM_ARGENSYML_SHOP_SETTINGS"
+            addfieldpath="/administrator/components/com_argensyml/models/fields"
+    >
+        <field
+                name="shop_settings"
+                type="shop"
+                label=""
+        />
+    </fieldset>
+</form>

@@ -1,0 +1,25 @@
+#sortable-fields {}
+#sortable-pos {}
+
+.products-dragable {
+	list-style: none;
+	padding: 0;
+	display: block;
+	min-height: 75px;
+	background-color: #f0f0f0;
+	border: 1px solid silver;
+	overflow: hidden;
+	width: 300px;
+	margin: 5px 5px 5px 0;
+}
+.products-dragable li {
+	display: block;
+    width: 290px;
+    height: auto;
+	border: 1px solid silver;
+	background-color: #f7f7f7;
+	padding: 2px;
+	margin: 1px;
+	float: left;
+	cursor: move;
+}

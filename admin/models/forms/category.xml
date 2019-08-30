@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="basic" label="COM_CONFIG_COMPONENT_FIELDSET_LABEL">
+        <field
+                name="category_id"
+                type="hidden"
+                default=""
+        />
+        <field
+                name="offer_type"
+                type="list"
+                default="basic"
+                label="COM_ARGENSYML_TYPE"
+                description="COM_ARGENSYML_TYPE_DESC"
+        >
+            <option value="vendor.model">COM_ARGENSYML_TYPE_VENDOR</option>
+            <option value="book">COM_ARGENSYML_TYPE_BOOK</option>
+            <option value="audiobook">COM_ARGENSYML_TYPE_AUDIOBOOK</option>
+            <option value="artist.title">COM_ARGENSYML_TYPE_ARTIST</option>
+            <option value="tour">COM_ARGENSYML_TYPE_TOUR</option>
+            <option value="event-ticket">COM_ARGENSYML_TYPE_TICKET</option>
+        </field>
+        <field
+                name="cpa"
+                type="list"
+                label="COM_ARGENSYML_CPA"
+                description="COM_ARGENSYML_CPA_DESC"
+                default="-1"
+        >
+            <option value="-1">COM_ARGENSYML_CPA_NOT_SHOW</option>
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        <field
+                name="store"
+                type="list"
+                label="COM_ARGENSYML_STORE"
+                description="COM_ARGENSYML_STORE_DESC"
+                default="1"
+        >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        <field
+                name="pickup"
+                type="list"
+                label="COM_ARGENSYML_PICKUP"
+                description="COM_ARGENSYML_PICKUP_DESC"
+                default="1"
+        >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        <field
+                name="delivery"
+                type="list"
+                label="COM_ARGENSYML_DELIVERY"
+                description="COM_ARGENSYML_DELIVERY_DESC"
+                default="1"
+        >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        <field
+                name="delivery_time"
+                type="text"
+                default=""
+                label="COM_ARGENSYML_DELIVERY_TIME"
+                description="COM_ARGENSYML_DELIVERY_TIME_DESC"
+                filter="integer"
+        />
+        <field
+                name="order_before"
+                type="text"
+                default=""
+                label="COM_ARGENSYML_ORDER_BEFORE"
+                description="COM_ARGENSYML_ORDER_BEFORE_DESC"
+                filter="integer"
+        />
+        <field
+                name="local_delivery_cost"
+                type="text"
+                default=""
+                label="COM_ARGENSYML_DELIVERY_COST"
+                description="COM_ARGENSYML_DELIVERY_COST_DESC"
+                filter="integer"
+        />
+        <field
+                name="bid"
+                type="text"
+                default=""
+                label="COM_ARGENSYML_BID"
+                description="COM_ARGENSYML_BID_DESC"
+        />
+        <field
+                name="cbid"
+                type="text"
+                default=""
+                label="COM_ARGENSYML_CBID"
+                description="COM_ARGENSYML_CBID_DESC"
+        />
+        <field
+                name="type_prefix"
+                type="text"
+                default=""
+                label="COM_ARGENSYML_TYPE_PREFIX"
+                description="COM_ARGENSYML_TYPE_PREFIX_DESC"
+        />
+        <field
+                name="sales_notes"
+                type="text"
+                default=""
+                label="COM_ARGENSYML_SALES_NOTES"
+                description="COM_ARGENSYML_SALES_NOTES_DESC"
+        />
+
+        <field
+                name="adult"
+                type="list"
+                default=""
+                label="COM_ARGENSYML_ADULT"
+                description="COM_ARGENSYML_ADULT_DESC"
+        >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        <field
+                name="age"
+                type="list"
+                default="0"
+                label="COM_ARGENSYML_AGE"
+                description="COM_ARGENSYML_AGE_DESC"
+        >
+            <option value="0">0</option>
+            <option value="6">6</option>
+            <option value="12">12</option>
+            <option value="16">16</option>
+            <option value="18">18</option>
+        </field>
+
+    </fieldset>
+</form>

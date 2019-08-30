@@ -1,0 +1,1 @@
+ALTER TABLE `#__argensyml_items` ADD `sales_notes` varchar(255) NOT NULL;

@@ -1,0 +1,1 @@
+ALTER TABLE `#__argensyml_items` ADD `delete_missing` int(1) NOT NULL DEFAULT '0';
