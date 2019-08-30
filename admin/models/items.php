@@ -9,7 +9,7 @@ jimport('joomla.application.component.modellist');
 /**
  * Yandex.Market XML
  *
- * @version 	1.0
+ * @version 	2.0.0
  * @author		Arkadiy, Joomline
  * @copyright	� 2015. All rights reserved.
  * @license 	GNU/GPL v.3 or later.

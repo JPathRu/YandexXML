@@ -3,11 +3,11 @@
     <name>com_argensyml</name>
     <author>Arkadiy, Joomline</author>
     <authorEmail>a.sedelnikov@gmail.com</authorEmail>
-	<creationDate>06.06.2018</creationDate>
-    <authoreUrl>http://joomline.ru</authoreUrl>
+	<creationDate>30.08.2019</creationDate>
+    <authoreUrl>https://joomline.ru</authoreUrl>
     <copyright>© 2015-2018. All rights reserved.</copyright>
     <license>GNU/GPL v.3 or later.</license>
-    <version>1.6.3</version>
+    <version>2.0.0</version>
     <description>COM_ARGENSYML_DESC</description>
     <files folder="site">
 		<folder>models</folder>

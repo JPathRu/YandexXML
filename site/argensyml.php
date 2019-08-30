@@ -5,9 +5,9 @@ defined( '_JEXEC' ) or die;
 /**
  * Yandex.Market XML
  *
- * @version 	1.0
+ * @version 	2.0.0
  * @author		Arkadiy, Joomline
- * @copyright	© 2015. All rights reserved.
+ * @copyright	© 2015-2019. All rights reserved.
  * @license 	GNU/GPL v.3 or later.
  */
 jimport( 'joomla.application.component.controller' );
