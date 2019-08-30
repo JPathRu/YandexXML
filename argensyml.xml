@@ -57,4 +57,5 @@
             <filename>index.html</filename>
         </files>
     </administration>
+    <updateservers><server type="extension" priority="1" name="JL Like">https://joomline.net/update.html?extension_id=83.xml</server></updateservers>
 </extension>
