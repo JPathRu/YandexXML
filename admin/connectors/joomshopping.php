@@ -494,7 +494,7 @@ class joomshoppingConnector extends Mainconnector
         $values = json_decode($field->value, true);
 
         $include_categories = (empty($values["include_categories"])) ? array() : $values["include_categories"];
-        $categories = buildTreeCategory(0,1,0);
+        $categories = buildTreeCategory(1,1,1);
         $all = new stdClass();
         $all->category_id = '-1';
         $all->name = JText::_('JALL');
@@ -586,7 +586,7 @@ class joomshoppingConnector extends Mainconnector
 
     public function getFilterCategory()
     {
-        $categories = buildTreeCategory(0,1,0);
+        $categories = buildTreeCategory(1,1,1);
         $all = new stdClass();
         $all->category_id = '';
         $all->name = JText::_('JSELECT');
