@@ -7,7 +7,7 @@
     <authoreUrl>https://joomline.ru</authoreUrl>
     <copyright>© 2015-2018. All rights reserved.</copyright>
     <license>GNU/GPL v.3 or later.</license>
-    <version>2.0.0</version>
+    <version>2.0.1</version>
     <description>COM_ARGENSYML_DESC</description>
     <files folder="site">
 		<folder>models</folder>
